@@ -5101,25 +5101,68 @@ a.badge:hover {
     padding-bottom: 30px;
     margin-bottom: 30px;
     color: #000;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 70%, rgba(255,195,42,1) 100%);
+    background: #dae5e9;
 
+}
+
+.me-on-internet {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #e90b8b;
+}
+
+.me-on-internet:hover {
+    text-decoration: none;
+    background-color: #cadb56;
 }
 
 #page-heading {
     font-family: 'Fredoka One', cursive;
-    font-size: 36px;
+    font-size: 40px;
+    color: #e90b8b;
+    text-align: center; 
+}
+
+#anna-nav {
+    font-size: 18px;
+    word-spacing: 20px;
+}
+
+#anna-nav a {
+    color: black;
+}
+
+#anna-nav a:hover {
+    text-decoration: none;
+    background-color: #cadb56;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 #page-sub-heading {
     font-family: 'Fredoka One', cursive;
-    font-size: 24px;
+    font-size: 28px;
+    color: #e90b8b;
 }
 
 .jumbotron p {
     margin-bottom: 15px;
     font-size: 21px;
 }
+
+.jumbotron li {
+    font-size: 21px;
+}
+
+
 .jumbotron>hr {
     border-top-color: #d5d5d5
 }
@@ -5129,18 +5172,6 @@ a.badge:hover {
 }
 .jumbotron .container {
     max-width: 100%
-}
-
-.jumbotron img {
-  transition: filter .2s ease-in-out;
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%); /* FF 35+ */
-}
-
-.jumbotron img:hover {
-  transition: filter .2s ease-in-out;
-  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(0%); /* FF 35+ */
 }
 
 Resources
@@ -6920,16 +6951,7 @@ a:link {
     text-decoration-skip: ink; 
 }
 
-.me-on-internet {
-    color: black;
-    text-decoration: underline
-
-}
-.me-on-internet:hover {
-    text-decoration: none;
-}
-
-
 body {
     font-family: 'Nunito', sans-serif;
+    background: #dae5e9;
 }
