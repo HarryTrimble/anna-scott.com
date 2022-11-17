@@ -5137,6 +5137,20 @@ a.badge:hover {
     background-color: #cadb56;
 }
 
+.meta-data-work {
+    padding-bottom: 40px;
+}
+
+.year-work { 
+    padding-left: 8px;
+    color: grey; 
+}
+
+.org-work {
+    color: #e90b8b;
+    font-weight: bold;
+}
+
 .sticky {
   position: fixed;
   top: 0;
